@@ -28,4 +28,9 @@ public class AccountController {
 		model.addAttribute("id", response.getId());
 		return "account";
 	}
+	
+	@RequestMapping("/help")
+	public String index() {
+		return "help";
+	}
 }
