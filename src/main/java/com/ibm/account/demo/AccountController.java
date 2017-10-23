@@ -30,7 +30,7 @@ public class AccountController {
 	}
 	
 	@RequestMapping("/help")
-	public String index() {
+	public String help() {
 		return "help";
 	}
 }
